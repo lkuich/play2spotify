@@ -1,0 +1,30 @@
+{
+  "name": "play2spotify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "jsdom": "^15.1.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "bin": {
+    "g2s": "index.js"
+  },
+  "preferGlobal": true,
+  "description": "Migrate Google Play Music playlists to Spotify",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkuich/play2spotify.git"
+  },
+  "author": "lkuich",
+  "bugs": {
+    "url": "https://github.com/lkuich/play2spotify/issues"
+  },
+  "keywords": ["google play music", "music", "spotify", "utilities", "migration", "playlist"],
+  "homepage": "https://github.com/lkuich/play2spotify#readme"
+}
