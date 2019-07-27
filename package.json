@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.4.1",
     "jsdom": "^15.1.1",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7"
@@ -25,6 +24,13 @@
   "bugs": {
     "url": "https://github.com/lkuich/play2spotify/issues"
   },
-  "keywords": ["google play music", "music", "spotify", "utilities", "migration", "playlist"],
+  "keywords": [
+    "google play music",
+    "music",
+    "spotify",
+    "utilities",
+    "migration",
+    "playlist"
+  ],
   "homepage": "https://github.com/lkuich/play2spotify#readme"
 }
